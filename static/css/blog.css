@@ -251,7 +251,7 @@ a.weixin {
     position: absolute;
     z-index: 99;
     top: -135px;
-    right: -28px;
+    right: 40px;
     width: 10.5rem;
     max-width: none;
     height: 10.5rem;
