@@ -244,3 +244,29 @@ div.go-top div.stick {
     -moz-border-radius: 1px;
     border-radius: 1px;
 }
+a.weixin {
+    position: relative;
+}
+.weixin img.qrcode {
+    position: absolute;
+    z-index: 99;
+    top: -135px;
+    right: -28px;
+    width: 10.5rem;
+    max-width: none;
+    height: 10.5rem;
+    transform: scale(0);
+    transform-origin: bottom right;
+    opacity: 0;
+    border: 0.1rem solid #0085ba;
+    border-radius: .25rem;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+}
+
+.weixin:hover img.qrcode {
+    transform: scale(1);
+    opacity: 1;
+}
